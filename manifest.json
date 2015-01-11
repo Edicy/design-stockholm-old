@@ -1,0 +1,220 @@
+{
+  "assets": [
+    {
+      "filename": "button.gif",
+      "file": "images/button.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_top.gif",
+      "file": "images/cont_top.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "lang_loop.gif",
+      "file": "images/lang_loop.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "comment.gif",
+      "file": "images/comment.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "style.css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "content_bottom.gif",
+      "file": "images/content_bottom.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "glow.gif",
+      "file": "images/glow.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "bgradient.gif",
+      "file": "images/bgradient.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_loop.gif",
+      "file": "images/cont_loop.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "lang_left.gif",
+      "file": "images/lang_left.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "defaultuser.gif",
+      "file": "images/defaultuser.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "content_top.gif",
+      "file": "images/content_top.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "content_loop.gif",
+      "file": "images/content_loop.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_bottom.gif",
+      "file": "images/cont_bottom.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "bluearrow.gif",
+      "file": "images/bluearrow.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "lang_right.gif",
+      "file": "images/lang_right.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "content_bottom_newsless.gif",
+      "file": "images/content_bottom_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "content_top_newsless.gif",
+      "file": "images/content_top_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "content_loop_newsless.gif",
+      "file": "images/content_loop_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_loop_newsless.gif",
+      "file": "images/cont_loop_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_top_newsless.gif",
+      "file": "images/cont_top_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "cont_bottom_newsless.gif",
+      "file": "images/cont_bottom_newsless.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    }
+  ],
+  "preview_medium": "http://static.edicy.com/designs/previews/stockholm_oldtown_medium.png",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "title": "Submenu",
+      "file": "components/submenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "News",
+      "file": "components/news.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Mainmenu",
+      "file": "components/mainmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Langmenu",
+      "file": "components/langmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Footer",
+      "file": "components/footer.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Front page",
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Common page",
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Blog & News",
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "component": false,
+      "content_type": "blog"
+    },
+    {
+      "title": "Blog article",
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "component": false,
+      "content_type": "blog_article"
+    },
+    {
+      "title": "SiteHeader",
+      "file": "components/siteheader.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "JS",
+      "file": "components/js.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    }
+  ],
+  "preview_small": "http://static.edicy.com/designs/previews/stockholm_oldtown_small.jpg",
+  "name": "Stockholm Old Town",
+  "description": "Stockholm"
+}
