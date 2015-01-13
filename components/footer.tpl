@@ -3,7 +3,7 @@
   <tr>
    <td class="footer_first clearfix">{% content name="footer" xpage="true" %}</td>
    {% if site.search.enabled %}<td>
-    <form id="searchform" action="">
+    <form id="searchform" action="" class="edys-search">
       <div>
      <input class="text" type="text" id="onpage_search" />
       </div>

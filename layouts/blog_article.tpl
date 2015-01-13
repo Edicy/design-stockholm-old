@@ -25,8 +25,8 @@
                         <div id="content-inner"{% for article in site.latest_articles limit:1 %}style="width: 634px;"{% endfor %}>
    <div class="post">
     <h1>{% editable article.title plain="true" %} <span class="author">{{ article.author.name }}</span> <span class="date">{{ article.created_at | format_date:"short" }}</span></h1>
-    <div class="blogbody clearfix">{% editable article.excerpt %}</div>
-    <div class="blogbody clearfix">{% editable article.body %}</div>
+    <div class="blogbody clearfix" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+    <div class="blogbody clearfix" data-search-indexing-allowed="true">{% editable article.body %}</div>
                                 <div class="clearer"></div>
    </div>
 {% unless article.new_record? %}

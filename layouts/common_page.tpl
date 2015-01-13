@@ -23,7 +23,7 @@
              <div id="cont_in2"{% for article in site.latest_articles limit:1 %}style="background: url('{{images_path}}/cont_bottom.gif?1') no-repeat left bottom;"{% endfor %}>
   {% include "Submenu" %}
   <div id="content">
-                <div id="content-inner" class="clearfix"{% for article in site.latest_articles limit:1 %}style="width: 634px;"{% endfor %}>
+                <div id="content-inner" class="clearfix"{% for article in site.latest_articles limit:1 %}style="width: 634px;"{% endfor %} data-search-indexing-allowed="true">
    {% content %}
                 </div>
                 </div>

@@ -22,8 +22,8 @@
       <div id="content_2"{% for article in site.latest_articles limit:1 %}style="background: url('{{images_path}}/content_top.gif?1') no-repeat left top;"{% endfor %}>
   <div id="cont_left"{% for article in site.latest_articles limit:1 %}style="width: 472px;"{% endfor %}>
    <div class="content"><div class="wrap">
-                        <div class="wrap-inner clearfix"{% for article in site.latest_articles limit:1 %}style="width: 428px;"{% endfor %}>
-                        <h1 class="clearfix">{% content name="left_heading" %}</h1>
+                        <div class="wrap-inner clearfix"{% for article in site.latest_articles limit:1 %}style="width: 428px;"{% endfor %} data-search-indexing-allowed="true">
+                        <h1 class="clearfix" data-search-indexing-allowed="false">{% content name="left_heading" %}</h1>
    {% content %}</div></div>
     <div class="clear"></div>
    </div>
@@ -46,7 +46,7 @@
    <td class="footer_first clearfix">{% content name="footer" xpage="true" %}</td>
    {% if site.search.enabled %}<td>
 
-    <form id="searchform" action="">
+    <form id="searchform" action="" class="edys-search">
       <div><input class="text" type="text" id="onpage_search" /></div>
      <!--<input class="button" type="submit" value="Search" />-->
     </form>
