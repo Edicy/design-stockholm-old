@@ -47,7 +47,7 @@
    {% if site.search.enabled %}<td>
 
     <form id="searchform" action="" class="edys-search">
-      <div><input class="text" type="text" id="onpage_search" /></div>
+      <div><input class="text" type="text" id="onpage_search" placeholder="{{  "search" | lc }}" /></div>
      <!--<input class="button" type="submit" value="Search" />-->
     </form>
    </td>
