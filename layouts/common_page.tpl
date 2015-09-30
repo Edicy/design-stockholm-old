@@ -3,7 +3,7 @@
 
 <head>
 {% include "SiteHeader" %}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
+  <title>{{page.site_title}} &raquo; {{page.title}}</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                 </div>
 
 </div></div>
-  
+
 	</div>
 {% for article in site.latest_articles limit:1 %}
 	<div id="cont_news" class="bg">

@@ -3,7 +3,7 @@
 
 <head>
 {% include "SiteHeader" %}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
+  <title>{{page.site_title}} &raquo; {{page.title}}</title>
 </head>
 
 <body id="front">

@@ -4,7 +4,7 @@
 <head>
 {% include "SiteHeader" %}
 {{ blog.rss_link }}
-  <title>{{article.title}} &laquo; {{page.title}} | {{site.name}}</title>
+  <title>{{article.title}} &laquo; {{page.title}} | {{page.site_title}}</title>
 </head>
 <body>
 <div id="wrap">
@@ -66,7 +66,7 @@
                     <td style="text-align: right;" colspan="2"><input type="submit" value="{{ "submit" |lc }}"/></td>
                   </tr>
                 </tbody></table>
-                
+
             </div>
 {% endcommentform %}
   </div></div>

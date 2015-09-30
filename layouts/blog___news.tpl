@@ -4,7 +4,7 @@
 <head>
 {% include "SiteHeader" %}
 {{ blog.rss_link }}
-  <title>{{site.name}} &raquo; {{page.title}}</title>
+  <title>{{page.site_title}} &raquo; {{page.title}}</title>
 </head>
 
 <body>
@@ -24,13 +24,13 @@
   {% include "Submenu" %}
   <div id="content" style="background: none;">
                <div id="content-inner"{% for article in site.latest_articles limit:1 %}style="width: 634px;"{% endfor %}>
-    
-{% addbutton class="add-article" %}             
+
+{% addbutton class="add-article" %}
    {% for article in articles %}<div class="post clearfix">
     <h1><a href="{{ article.url }}">{{ article.title }}</a> <span class="author">{{ article.author.name }}</span> <span class="date">{{ article.created_at | format_date:"short" }}</span></h1>
                  <a href="{{ article.url }}#comments"><img src="{{images_path}}/comment.gif?1" alt="" />{{ "comments"|lc }}: {{ article.comments_count }}</a>
                  <div style="padding-top: 5px;">{{ article.excerpt }} <a href="{{ article.url }}">{{ "read_more" | lc }}</a></div>
-    
+
    </div>{% endfor %}
 </div>
 </div></div>
